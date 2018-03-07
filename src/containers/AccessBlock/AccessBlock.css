@@ -1,0 +1,38 @@
+.access-block{
+    width: 300px;
+    margin: 20px auto;
+}
+.access-screen{
+    padding: 2px 10px 5px;
+    border: 1px solid #ccc;
+    height: 50px;
+    margin: 0 2px 10px;
+    position: relative;
+}
+.access-screen.active{
+    border-color: darkcyan;
+    background: rgba(15,192,200,0.2);
+    color: darkcyan;
+}
+.access-screen span{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 50px;
+}
+.access-screen i{
+    display: block;
+    color: transparent;
+    position: absolute;
+    bottom: 1px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+.access-screen.active i{
+    color: red;
+}
+.keyboard button{
+    width: 94px;
+    padding: 5px 0;
+    margin: 3px;
+}
